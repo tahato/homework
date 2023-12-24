@@ -1,0 +1,78 @@
+nav {
+    display: flex;
+    margin: 0px 20px;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:7px;
+   
+  }
+  a {
+    margin-left: 20px;
+    text-decoration: none;
+   
+    font-size: 20px;
+    font-family: "Libre Franklin", sans-serif;
+  }
+  #lien {
+    margin-left: auto;
+  }
+  a:hover {
+    color: greenyellow;
+  }
+  #topimg{
+    width:120px;
+    height:30px;}
+    section{
+      text-align: center;
+    }
+    h1{
+      letter-spacing: 1px;
+      font-size: 30px;
+      text-decoration: underline;
+      font-weight: bold;
+    }
+    h2{
+      margin: 30px 0px;
+    }
+    .homepage {
+     background-color: rgb(221, 217, 217);
+     padding-bottom: 5%;
+     
+    }
+    #imghome{
+      width:400px;
+      height:300px;
+    }
+.article{
+  display: flex;
+  justify-content: center;
+}
+.side{
+  text-align: start;
+  width:50%;
+  margin: 0px 20px;
+}
+.join{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+  border: 2px solid black;
+  margin: 10px 30%;
+border-radius: 10%;
+}
+label{
+  margin:30px 0px ;
+  font-size: 20px;
+  font-weight: bold;
+}
+button{
+  margin:30px 0px ;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 20%;
+  cursor: pointer;
+}
+button:hover{
+  background-color: red;
+}
